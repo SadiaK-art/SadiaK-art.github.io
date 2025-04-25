@@ -28,7 +28,7 @@ header {
     font-weight: bold;
 }
 
-.container {
+.container-fluid {
     display: flex;
     padding: 30px;
     font-family: 'Nunito', sans-serif;
