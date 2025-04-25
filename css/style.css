@@ -94,10 +94,16 @@ header {
     margin-top: 20px;
     padding: 10px 20px;
     background: #FF1654;
-    color: white;
+    color: white !important;
     text-decoration: none;
     border-radius: 5px;
 }
+  
+.custom-btn:hover {
+    color: white !important;
+    background-color: #d41246; 
+}
+  
 
 .right-panel {
     flex: 2;
@@ -184,6 +190,12 @@ footer {
 .pub-card:hover {
     transform: translateY(-5px);
 }
+  
+a:link,
+a:visited {
+    color: #47FFED;
+    text-decoration: none;
+  }
 
 h1 {
     font-size: 32px;
