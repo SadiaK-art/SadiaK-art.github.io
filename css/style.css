@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Nunito', sans-serif;
-    background: #e0f2f1;
+    background-color: #FAEFF1;
 }
 
 .profile-pic {
@@ -28,7 +28,7 @@ header {
     font-weight: bold;
 }
 
-.container-fluid {
+.main-wrapper {
     display: flex;
     padding: 30px;
     font-family: 'Nunito', sans-serif;
@@ -89,7 +89,7 @@ header {
     filter: brightness(0)
 }
 
-.btn {
+.custom-btn {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -129,7 +129,7 @@ footer {
     margin: 40px 0;
 }
 
-.card {
+.custom-card {
     flex: 1;
     background: #ffffff;
     color: #744253;
@@ -139,13 +139,13 @@ footer {
     transition: transform 0.2s ease;
 }
 
-.card:hover {
+.custom-card:hover {
     transform: translateY(-5px);
 }
 
 .project-card {
     flex: 0 0 200px;
-    max-width: 270px;
+    max-width: 350px;
     min-width: 270px;
     background: #C07276;
     color: white;
